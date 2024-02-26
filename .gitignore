@@ -8,3 +8,9 @@ coverage
 .DS_Store
 *_cache*
 .npmrc
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws

@@ -7,7 +7,7 @@ import { AddToQueueIcon } from "./icons/AV/AddToQueueIcon";
 
 const omit = (props, obj) => {
   return Object.fromEntries(
-    Object.entries(obj).filter(([key]) => !props.includes(key))
+    Object.entries(obj).filter(([key]) => !props.includes(key)),
   );
 };
 
